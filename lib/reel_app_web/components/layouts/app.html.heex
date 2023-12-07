@@ -1,0 +1,16 @@
+<header class="px-4 sm:px-6 lg:px-12 bg-white">
+  <div class="flex items-center justify-between border-b border-zinc-100 py-3 text-sm">
+    <div class="flex items-center gap-4">
+      <a href="/">
+        <img src={~p"/images/reel_logo.svg"} width="44" />
+      </a>
+      <p class="bg-sky-100 text-sky-600 rounded-full px-2 font-medium leading-6">
+        elixir-fullstack-project
+      </p>
+    </div>
+  </div>
+</header>
+<main class="">
+  <.flash_group flash={@flash} />
+  <%= @inner_content %>
+</main>
