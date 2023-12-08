@@ -6,9 +6,9 @@ As the next step in the process for the (Sr.) Full-Stack Engineer role at Reel w
 
 ## Problem Description
 
-We want to display hourly consumption data for a particular day to a user on our platform. The data should be displayed on the page rendered by the `ReelAppWeb.Consumption.ConsumptionLive` module, which has already been created.
+We want to display hourly consumption data for a particular day to a user on our platform. The data should be displayed on the page rendered by the `ReelAppWeb.Consumption.ConsumptionLive` module (lib/reel_app_web/consumption/consumption_live.ex), which has already been created.
 
-The function `get_consumption_readings/0` in the `Consumption` module returns a list of 24 consumption readings spanning 1 day. Each of the 24 consumption readings are of the type `ReelApp.Consumption.ConsumptionReading`.
+The function `get_consumption_readings/0` in the `Consumption` (lib/consumption.ex) module returns a list of 24 consumption readings spanning 1 day. Each of the 24 consumption readings are of the type `ReelApp.Consumption.ConsumptionReading` (lib/reel_app/consumption/consumption_reading.ex).
 
 ## Your Task
 
