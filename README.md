@@ -6,9 +6,9 @@ As the next step in the process for the (Sr.) Full-Stack Engineer role at Reel w
 
 ## Problem Description
 
-We want to display hourly consumption data for a particular day to a user on our platform. The data should be displayed on the page rendered by the `ReelAppWeb.Consumption.ConsumptionLive` module (lib/reel_app_web/consumption/consumption_live.ex), which has already been created.
+We want to display hourly consumption data for a particular day to a user on our platform. The data should be displayed on the page rendered by the `ReelAppWeb.Consumption.ConsumptionLive` module *(lib/reel_app_web/consumption/consumption_live.ex)*, which has already been created.
 
-The function `get_consumption_readings/0` in the `Consumption` (lib/consumption.ex) module returns a list of 24 consumption readings spanning 1 day. Each of the 24 consumption readings are of the type `ReelApp.Consumption.ConsumptionReading` (lib/reel_app/consumption/consumption_reading.ex).
+The function `get_consumption_readings/0` in the `Consumption` module *(lib/consumption.ex)* returns a list of 24 consumption readings spanning 1 day. Each of the 24 consumption readings are of the type `ReelApp.Consumption.ConsumptionReading` *(lib/reel_app/consumption/consumption_reading.ex)*.
 
 ## Your Task
 
@@ -28,13 +28,13 @@ Write a short (1200 characters max) explanation of how your solution works and w
 
 To start your Phoenix server:
 
-1. Make sure you have Elixir installed (see https://elixir-lang.org/install.html). If you use asdf, the Erlang and Elixir versions are already defined in `.tool-versions`.
+1. Make sure you have Elixir installed (see https://elixir-lang.org/install.html). If you use asdf, the Erlang and Elixir versions are already defined in `.tool-versions`
 2. Run `mix setup` to install and setup dependencies
 3. Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-If you want to add tests, you can run your tests with:
+If you want to add tests, you can add them to the */test* folder and run your tests with:
 - `$ mix test`
 
 ## Submitting Your Work
