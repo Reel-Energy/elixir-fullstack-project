@@ -18,6 +18,8 @@ We expect the project to take 2-3 hours to complete. You are always more than we
 
 The consumption data returned by `get_consumption_readings/0` should be displayed in a table on the `ReelAppWeb.Consumption.ConsumptionLive` page. It's up to you to decide how the table is displayed, but it should include both the datetime and the quantity fields of the consumption readings.
 
+You can find some basic interface components in the `ReelAppWeb.CoreComponents` module *lib/reel_app_web/components/core_components.ex* that you are free to use.
+
 ### 2. Add Selection Of Display Time Zone
 
 Add a way for the user to select the display time zone of the data in the table. The two options for the timezone should be `UTC` and `Europe/Copenhagen` (CET). It's up to you to decide how the user selects the time zone in the interface.
