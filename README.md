@@ -10,6 +10,8 @@ We want to display hourly consumption data for a particular day to a user on our
 
 The function `get_consumption_readings/0` in the `Consumption` module *(lib/consumption.ex)* returns a list of 24 consumption readings spanning 1 day. Each of the 24 consumption readings are of the type `ReelApp.Consumption.ConsumptionReading` *(lib/reel_app/consumption/consumption_reading.ex)*.
 
+We expect the project to take 2-3 hours to complete. You are always more than welcome to reach out to us if something needs clarification.
+
 ## Your Task
 
 ### 1. Display Consumption Data
