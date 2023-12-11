@@ -16,11 +16,15 @@ We expect the project to take 2-3 hours to complete. You are always more than we
 
 ### 1. Display Consumption Data
 
-The consumption data returned by `get_consumption_readings/0` should be displayed in a bar chart on the `ReelAppWeb.Consumption.ConsumptionLive` page. It's up to you to decide how the chart is displayed.
+The consumption data returned by `get_consumption_readings/0` should be displayed in a table on the `ReelAppWeb.Consumption.ConsumptionLive` page. It's up to you to decide how the table is displayed, but it should include both the datetime and the quantity fields.
 
 ### 2. Add Selection Of Display Time Zone
 
-Add a way for the user to select the display time zone of the data in the bar chart. The two options for the timezone should be `UTC` and `Europe/Copenhagen` (CET). It's up to you to decide how the user selects the time zone in the interface.
+Add a way for the user to select the display time zone of the data in the table. The two options for the timezone should be `UTC` and `Europe/Copenhagen` (CET). It's up to you to decide how the user selects the time zone in the interface.
+
+### 3. Add Ordering of the Data
+
+Add a way for the user to select the ordering of the data in the table. The ordering should be based on the datetime field and should include both asc and desc ordering.
 
 ### 3. Explain Your Solution
 
