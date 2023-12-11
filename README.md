@@ -16,7 +16,7 @@ We expect the project to take 2-3 hours to complete. You are always more than we
 
 ### 1. Display Consumption Data
 
-The consumption data returned by `get_consumption_readings/0` should be displayed in a table on the `ReelAppWeb.Consumption.ConsumptionLive` page. It's up to you to decide how the table is displayed, but it should include both the datetime and the quantity fields.
+The consumption data returned by `get_consumption_readings/0` should be displayed in a table on the `ReelAppWeb.Consumption.ConsumptionLive` page. It's up to you to decide how the table is displayed, but it should include both the datetime and the quantity fields of the consumption readings.
 
 ### 2. Add Selection Of Display Time Zone
 
@@ -26,7 +26,7 @@ Add a way for the user to select the display time zone of the data in the table.
 
 Add a way for the user to select the ordering of the data in the table. The ordering should be based on the datetime field and should include both asc and desc ordering.
 
-### 3. Explain Your Solution
+### 4. Explain Your Solution
 
 Write a short (1200 characters max) explanation of how your solution works and why you chose that particular solution.
 
